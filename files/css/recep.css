@@ -1,0 +1,176 @@
+*
+{
+    margin:0;
+    padding: 0;
+
+}
+
+.container
+{
+    width: 100%;
+     padding-bottom: 100px;
+    height: auto;
+    
+    background-image: url('../img/bg17.jpg');
+    background-size: cover;
+}
+.nav
+{
+    width:100%;
+    height:50px;
+    background: #05a4fa;
+    color:white; 
+    display: flex;
+}
+.nav h1
+{
+    margin-left:1%;
+   
+}
+.nav .btnLogout
+{
+    position: relative;
+    left:80%;
+    top:15%;
+    padding: 5px 10px;
+    height:35px;
+    text-align: center;
+    background: #05ad1c;
+    color:white;
+    font-size: 20px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+.nav .btnLogout:hover
+{
+    font-weight: bold;
+    
+}
+.billing
+{
+    width: 100%;
+    display:flex;
+    margin: 50px 0%;
+}
+.billing .recordEnter
+{
+    width: 40%;
+    background: white;
+    border-radius: 15px;
+    margin: 0% 5%;
+}
+.billing .recordDisplay
+{
+    width: 40%;
+    background:white;
+    border-radius: 15px;
+    margin: 0% 5%;
+}
+.billing .heading
+{
+    width: 100%;
+    background: #05a4fa;
+    color: white;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+.billing h1
+{
+    padding: 5px 15px;
+    font-size:25px; 
+   
+}
+.content
+{
+   
+
+}
+.row
+{
+    display: flex;
+}
+.row input
+{
+    width:40%;
+    height:30px;
+    margin:20px 5%;
+    border-radius: 3px;
+    padding:0% 5px;
+}
+.selection,.gends
+{
+    display: flex;
+    flex-direction: row;
+    font-size:15px;
+    
+    padding:20px 0%;
+}
+.selection input,.gends input
+{
+    
+    margin: 0% 5px;
+    height: 10px;
+    width: 20px;
+}
+
+.gender, .select
+{
+    margin: 20px 8%;
+    
+}
+.head
+{
+    font-size: 20px;
+    margin:10px 0%;
+    padding:30px 0%;
+}
+.btn
+{
+    padding:5px 10px;
+    background: #05ad1c;
+    color: white;
+    font-size:20px;
+    border-radius: 3px;
+    border:2px solid black;
+}
+.btn:hover
+{
+    background: #05a4fa;
+}
+
+
+.btn-enter
+{
+    padding: 5% 43%;
+}
+.content2
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.content2 h1
+{
+    font-size: 30px;
+}
+.content2 p
+{
+    font-size:20px;
+}
+
+.print-btn
+{
+    margin:20px 45%;
+    visibility: hidden;
+}
+.appointment
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+

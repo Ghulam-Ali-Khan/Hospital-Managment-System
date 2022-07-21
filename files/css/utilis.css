@@ -1,0 +1,78 @@
+/*Creat Variable for dowloaded fonts */
+/**************************Start*************************/ 
+@font-face {
+    font-family: 'baloo';
+    src: url('../fonts/baloo/Baloo-Regular.ttf');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'openSans';
+    src: url('../fonts/open-sans/OpenSans-Regular.ttf');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratAlternates';
+    src: url('../fonts/montserrat-alternates/MontserratAlternates-Regular.ttf');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alegreya';
+    src: url('../fonts/alegreya/Alegreya-Regular.ttf');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofia';
+    src: url('../fonts/sofia/Sofia-Regular.ttf');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto/Roboto-Regular.ttf');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+/*************************End***********************/
+/*creates font families*/
+/*******************Start*************/
+.font1
+{
+	font-family: cursive;
+
+}
+.font2
+{
+	font-family: 'baloo';
+}
+.font3
+{
+    font-family: 'roboto';
+}
+.font4
+{
+    font-family: 'openSans';
+}
+.font5
+{
+    font-family: 'alegreya';
+}
+.font6
+{
+    font-family: 'sofia';
+}
+.font7
+{
+    font-family: 'montserratAlternates';
+}
+/*************************End***************/

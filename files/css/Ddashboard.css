@@ -1,0 +1,186 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+.D-dashboard
+{
+
+    width: 100%;
+    display: flex;
+
+
+}
+.D-dashboard .side-menu
+{
+    height: 100%;
+    width:60px;
+    background-color:#05a4fa ;
+}
+.D-dashboard .main-menu
+{
+    height: 100%;
+    width:100%;
+ 
+}
+.main-menu .dash-head
+{
+    background:white;
+    width:70%;
+    margin:0px 30px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+
+}
+.main-menu .dash-head h2
+{
+    padding:10px 20px;
+}
+
+.name-head
+{
+    margin: 15px 30px;
+ 
+    width:94.6%;
+    height: auto;
+    padding: 45px 0px 45px 20px;
+    color: white;
+    background-image: url("../img/bg16.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.name-head p
+{
+    width:50%;
+    padding-top: 10px;
+}
+.dash-items
+{
+    width: 101%;
+    display: flex;
+   
+}
+
+.blocks
+{
+    width:96.8%;
+    height:auto;
+    background: white;
+    display: flex;
+    margin: 0px 0px 30px 30px;
+    border-radius: 15px;
+}
+
+.blocks .block
+{
+    width:15%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 10%;
+}
+.blocks .block h2
+{
+    font-size: 30px;
+    padding: 0px 0px 0px 20px;
+}
+.blocks .block img
+{
+ 
+    width:40%;
+    height:auto;
+}
+
+.blocks .block h3
+{
+    font-size: 10px;
+}
+.pic-count
+{
+    display: flex;
+}
+
+.left-col
+{
+
+    width: 72.5%;
+}
+.right-col
+{
+    position: absolute;
+    width:23%;
+    left: 75%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+}
+.time
+{
+
+    width: 100%;
+    height: auto;
+}
+.time #time {
+    padding: 50px;
+    font-size: 30px;
+}
+.appointments
+{
+    width: 100%;
+    
+    height: 77%;
+    
+}
+.appointment
+{
+    background: #05a4fa;
+    border-radius: 15px;
+    margin: 8px auto;
+    color: white;
+}
+
+.Image
+{
+    width: 45px;
+    height: 45px;
+    padding-right: 30px;    
+}
+
+.app-block
+{
+    display: flex;
+    padding: 10px 20px;
+}
+.btns
+{
+    margin:8px 20px;
+}
+.btns button
+{
+    padding: 5px;
+    font-size: 15px;
+    margin:10px 5px;
+    background: rgb(3, 192, 3);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    
+}
+.btns button:hover
+{
+ 
+    background: white;
+    border: 2px solid rgb(3, 192, 3);
+    color: rgb(3, 192, 3);
+    font-weight: bolder;
+}
+
+.prescription
+{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="files/img/icon1.png">
+    <link rel="stylesheet" href="files/css/style.css">
+    <link rel="stylesheet" href="files/css/utilis.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Care</title>
+</head>
+<body>
+<div class="nav-bar-top">
+<div class="nav-item">
+    <img src="files/img/download.png" alt="contact">
+    <h3 class="font5">03104589957</h3>
+</div>
+<div class="nav-item">
+    <img src="files/img/email1.png" alt="contact">
+    <h3 class="font5">HealthCare@gmail.com</h3>
+</div >
+<div class="Marquee">
+<marquee behavior="alternate" direction="right" class="font7"><h3>.Services 24/7 Open for you.</h3></marquee>
+</div>
+<div class="nav-item-logo">
+<a href="www.instagram.com"><img src="files/img/instagram.png" alt="instagram"></a>
+<a href="www.instagram.com"><img src="files/img/whatsapp.png" alt="whatsapp"></a>
+<a href="www.instagram.com"><img src="files/img/facebook.png" alt="facebook"></a>
+</div>
+
+</div>
+<!--  -------------------------------------- -->
+<div class="nav-bar-bottom">
+<div class="logo">
+<img src="files/img/icon2.png" alt="icon">
+<h1 class="font2">Health Care</h1>
+</div>
+<div class="links font3">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#doctors">Doctors</a>
+</div>
+<div class="Log font7">
+    <a href="files/Login As.php">Login.</a>
+    <a href="files/signup.php">Sign up.</a>
+</div>
+</div>
+<!-- -------------------------------------------------- -->
+<div class="home" id="home">
+    <figure>
+<img src="files/img/bg1.jpg" alt="">
+<img src="files/img/bg11.jpg" alt="">
+<img src="files/img/bg13.jpg" alt="">
+<img src="files/img/bg14.jpg" alt="">
+    </figure>
+</div>
+<!-- ------------------------------------------- -->
+<div class="about font7" id="about">
+    <h2>About</h2>
+    <div class="about-items">
+    <div class="about-text font3">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ea distinctio repudiandae accusantium, impedit unde culpa maxime facilis rerum minus accusamus tempora voluptatum aut sit iure! Beatae veniam sint ad omnis eius quaerat eveniet animi ratione, tenetur, earum fugiat exercitationem est delectus vel possimus quasi harum impedit dolore rem deserunt ea. In perspiciatis culpa sapiente, nobis distinctio labore voluptatibus dolor, quibusdam voluptate accusamus hic illo quis non magni iure, expedita cupiditate veniam corporis mollitia ratione? Porro quis cumque fuga dolore laborum accusantium sit voluptate at dicta harum veniam, esse aspernatur ipsum deleniti sapiente, quisquam ab consequatur quas non dolorem recusandae?</p>
+    </div>
+    <div class="about-img">
+<img src="files/img/bg4.jpg" alt="about">
+    </div>
+    </div>
+</div>
+<!-- ----------------------------------------- -->
+<div class="servies" id="services">
+    <h2 class="font7">Services</h2>
+    <div class="serve-items font2">
+        <div class="service">
+            <img src="files/img/genral.png" alt="genral">
+            <p>General</p>
+        </div>
+        <div class="service">
+            <img src="files/img/brain.png" alt="brain">
+            <p>Brain Specialist</p>
+        </div>
+        <div class="service">
+            <img src="files/img/hair.png" alt="hair">
+            <p>Hair Treatment</p>
+        </div>
+        <div class="service">
+            <img src="files/img/liver.png" alt="liver">
+            <p>Liver Treatment</p>
+        </div>
+
+    </div>
+
+
+    
+    <div class="serve-items font2">
+        <div class="service">
+            <img src="files/img/eye.png" alt="eye">
+            <p>Eye Treatment</p>
+        </div>
+        <div class="service">
+            <img src="files/img/baby.png" alt="baby">
+            <p>Garnacoligist</p>
+        </div>
+        <div class="service">
+            <img src="files/img/teeth.png" alt="teeth">
+            <p>Dentist</p>
+        </div>
+        <div class="service">
+            <img src="files/img/lungs.png" alt="lungs">
+            <p>Lungs Treatment</p>
+        </div>
+</div>
+</div>
+<!-- ------------------------------------- -->
+<div class="doctors" id="doctors">
+    <h2 class="font7">Doctors</h2>
+
+    <div class="doctor-blocks">
+       <div class="doctor font5">
+           <img src="files/img/ali.jpeg" alt="ali">
+           <h6>Prof.Ali</h6>
+           <p>Heart Specialist</p>
+       </div>
+       <div class="doctor font5">
+        <img src="files/img/zain.jpeg" alt="zain">
+        <h6>Prof.Zain</h6>
+        <p>Gaynacologist</p>
+    </div>
+    <div class="doctor font5">
+        <img src="files/img/hammad.jpeg" alt="hammad">
+        <h6>Prof.Hammad</h6>
+        <p>Laborotist</p>
+    </div>
+    <div class="doctor font5">
+        <img src="files/img/sharjeel.png" alt="sharjeel">
+        <h6>Prof.Shargeel</h6>
+        <p>Brain Specialist</p>
+    </div>
+    </div>
+
+
+    
+    <div class="doctor-blocks">
+        <div class="doctor font5">
+            <img src="files/img/shahrukh.png" alt="shahrukh">
+            <h6>Prof.Shahrukh</h6>
+            <p>Dentist</p>
+        </div>
+        <div class="doctor font5">
+         <img src="files/img/junaid.jpg" alt="junaid">
+         <h6>Prof.Junaid</h6>
+         <p>Skin Specialist</p>
+     </div>
+     <div class="doctor font5">
+         <img src="files/img/abdullah.jpg" alt="abdullah">
+         <h6>Prof.Abdullah</h6>
+         <p>Eye Specialist</p>
+     </div>
+     <div class="doctor font5">
+         <img src="files/img/hashir.jpg" alt="hashir">
+         <h6>Prof.Hashir</h6>
+         <p>Liver Specialist</p>
+     </div>
+     </div>
+</div>
+
+<div class="footer font3">
+<p>All rights reserved by Health Care &copy</p>
+</div>
+</body>
+</html>

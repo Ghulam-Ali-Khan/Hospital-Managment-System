@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding:0;
+     overflow-x: hidden;
+    text-decoration: none;
+}
+.heading
+{   top:35px;
+    position: absolute;
+    width: 100%;
+    
+    z-index: 2;
+    color: white;
+
+}
+.heading h1
+{
+    width:100%;
+    background-color: #05a4fa;
+    height:auto;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+   font-weight: 200;
+}
+.heading h2
+{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top:15px;
+    padding: 15px;
+    text-align: center;
+    padding-left: 45px;
+    width: 120px;
+    font-weight: 100;
+    background-color:white;
+    color: #05a4fa;
+}
+.container
+{
+    height:100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("../img/bg7.jpg");
+    z-index: -1;
+    background-size: cover;
+}
+.container::after
+{    
+    content:'';
+    height: 100vh;
+    width: 100%;
+     position: absolute;
+     z-index:1;
+background-color:white ;
+    opacity: .3;
+}
+.s-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: auto;
+    margin: auto 60px;
+    z-index: 2;
+}
+.s-container img
+{
+    width:150px;
+    margin-bottom: 20px;
+}
+.s-container button
+{
+    width:100%;
+    height: 45px;
+    background-color:white;
+    color:#05a4fa;
+    font-size: 18px;
+    
+    font-family: Verdana;
+    border-radius: 5px;
+    border:1px solid black;
+    /* box-shadow: 50px 55px 10px black; */
+    transition: .5s ease-in;
+    outline:none;
+}
+.s-container button:hover
+{
+    background-color:#05a4fa;
+    color:white;
+
+    cursor: pointer;
+}
+/************************************Home.Html****************************/
+
+.nav-bar-top
+{
+    display: flex;
+    width: 100%;
+
+}
+.nav-item
+{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item img
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.nav-item-logo
+{
+    position: relative;
+    left: 8%;
+}
+.nav-item-logo img
+{
+    width:35px;
+    height: 35px;
+}
+.Marquee
+{
+    position: relative;
+    width:50%;
+    left:4%;
+    
+    text-align: center;
+    padding:5px;
+    color: #053efa;
+}
+
+.nav-bar-bottom
+{
+    display: flex;
+    width: 100%;
+background: #05a4fa;
+}
+.logo
+{   
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    width: 20%;
+}
+.logo img
+{
+    width:50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.links
+{
+    display: flex;
+
+    margin-left: 15%;
+}
+.links a
+{
+   font-size: 25px;
+   color: white;
+   padding: 20px ;
+   transition:0.4s ease-in;
+}
+.links a:hover
+{
+    background: white;
+    color:#05a4fa;
+}
+.Log
+{
+
+    margin-left: 15%;
+    display: flex;
+}
+.Log a
+{   position: relative; 
+    text-align: center;
+    color: white;
+    padding:20px 10px;
+    font-size: 18px;
+ 
+}
+.Log a:hover
+{
+    color:chartreuse;
+}
+.home
+{
+    height: 90vh;
+    width: 100%;
+     background-image: url("../img/bg12.jpg");
+    
+    background-size: cover; */
+    /* animation-name: slider;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite; */
+
+}
+.home figure
+{
+    position: relative;
+    width: 400%;
+    height: 90vh;
+    margin: 0;
+    left: 0;
+    animation: 30s slider infinite;
+}
+.home figure img
+{
+    width: 25%;
+    float: left;
+    height: 90vh;
+
+}
+@keyframes slider
+{
+    0%
+    {
+               left:0; 
+    }
+    25%
+    {         
+        left: -100%;
+    }
+    50%
+    {
+        left: -200%;
+     }
+    75%
+    {
+        left:-300%;
+    }
+    100%
+    {        
+        left: -400%;
+    }
+    
+}
+
+
+
+.about
+{
+    height: 100vh;
+    width: 100%;
+
+}
+.about h2
+{
+    width: 150px;
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+    border-bottom-right-radius:10px;
+    border-top-right-radius: 10px;
+    background:#05a4fa;
+    margin: 30px 0px;
+}
+.about-items
+{   
+    
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background: chartreuse; */
+}
+.about .about-text,.about .about-img
+{
+    width: 37%;
+    margin: auto 30px;
+}
+.about .about-text p 
+{
+  text-align: left;
+  font-size: 15px;
+  color: rgb(22, 21, 21);
+}
+.about .about-img img
+{
+    
+    width: 100%;
+}
+.servies
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: rgb(39, 38, 38);
+    flex-direction: column;
+}
+.servies h2
+{
+    margin: 0px 41%;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 50px;
+    background:#05a4fa;
+    color: white;
+    margin-bottom: 30px;
+}
+.servies .serve-items 
+{
+    display: flex;
+    margin: 3%  10%;
+
+} 
+.servies .serve-items .service
+{
+    display: flex;
+    flex-direction: column;
+     margin: 0% 8%;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.servies .serve-items .service img
+{
+    width: 90px;
+}
+
+.doctors
+{
+    width: 100%;
+    height: 115vh;
+   display: flex;
+   flex-direction: column;
+
+}
+.doctors h2
+{
+    display: inline-block;
+    background:#05a4fa;
+    color:white;
+    margin-bottom: 70px;
+    font-size: 50px;
+    padding: 20px;
+    position: relative;
+    top:10px;
+    right: 0%;
+    left: 82.3%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.doctors .doctor-blocks 
+{
+    display: flex;
+    width: 85%;
+
+    margin: 1% 8%;
+}
+.doctors .doctor-blocks .doctor
+{  width: 150px;
+
+    margin: 0% 5%;
+}
+.doctors .doctor-blocks .doctor img
+{
+   width: 100%;
+   border-radius: 20px;
+   height: 200px;   
+}
+.doctors .doctor-blocks .doctor h6
+{
+    font-size: 20px;
+}
+
+
+.footer
+{
+    width:100%;
+    text-align: center;
+    height: 70px;
+    background:#05a4fa ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ****************************Ddashboard***************************** */
+
+.D-dashboard
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+
+}
+.D-dashboard .side-menu
+{
+    height: 100%;
+    width:60px;
+    background-color:#05a4fa ;
+}
+.D-dashboard .main-menu
+{
+    height: 100%;
+    width:99%;
+    background-color:rgb(214, 207, 219) ;
+}
+.main-menu .dash-head
+{
+    background:white;
+    width:70%;
+    margin:0px 30px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+
+}
+.main-menu .dash-head h2
+{
+    padding:10px 20px;
+}
+
+.name-head
+{
+    margin: 30px 30px;
+    background: lightsalmon;
+    width:68.5%;
+    height: auto;
+    padding: 45px 0px 45px 20px;
+    color: white;
+    background-image: url("../img/bg16.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.name-head p
+{
+    width:50%;
+    padding-top: 10px;
+}

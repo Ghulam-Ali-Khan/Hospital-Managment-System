@@ -1,0 +1,62 @@
+form
+{
+    padding: 30px;
+    background: white;
+    margin-top: 250px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 15px;
+}
+form div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.container1
+{
+    height: 100vh;
+    width: 100%;
+    background: url('../img/bg17.jpg');
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.5;
+    z-index: -1;
+    position: absolute; */
+}
+.container1::after
+{    
+    content:'';
+    height: 100vh;
+    width: 100%;
+     position: absolute;
+     z-index:1;
+background-color:white ;
+    opacity: .2;
+}
+input,label
+{
+    margin:5px 0px;
+}
+input
+{
+    width: 250px;
+    height: 30px;
+    border: 1.5px solid #05a4fa ;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button
+{
+    margin-top: 35px;
+}

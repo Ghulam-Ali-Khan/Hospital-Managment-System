@@ -1,0 +1,51 @@
+.btn-update
+{
+    background: limegreen;
+}
+.btn-update:hover
+{
+    color: limegreen;
+    border: 2px solid limegreen;
+}
+.DOB
+{
+    margin-left:0px ;
+    padding-left:0px ;
+}
+.container2
+{
+    height: 130vh;
+    width: 100%;
+    background: url('../img/bg11.jpg');
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.5;
+    z-index: -1;
+    position: absolute; */
+}
+.container2::after
+{    
+    content:'';
+    height: 130vh;
+    width: 100%;
+     position: absolute;
+     z-index:1;
+background-color:black ;
+    opacity: .2;
+}
+#lab1
+{
+    margin-left: 30px;
+}
+#lab1,#start1
+{
+    margin-top: 20px;
+}
+#start1
+{
+    border: 1.5px solid #05a4fa;
+}
